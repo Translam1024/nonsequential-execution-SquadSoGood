@@ -24,9 +24,16 @@
       9
      12
 
-  Include an assert statement for each assumption that you are making.
-
-*/
-
+     Include an assert statement for each assumption that you are making. */
+assert(CommandLine.arguments.count == 2, "Exactly one argument is required")
+assert(Int(CommandLine.arguments[1]) != nil, "Argument must be an integer")
 // Continue with your code here
-
+let gridSize = Int(CommandLine.arguments[1])!
+assert(gridSize <= 20, "Grid is too big")
+for rows in 0...gridSize + 1 {
+    print(rows, terminator: "")
+    for columns in 0...gridSize + 1 {
+        print(columns, terminator: "")
+}
+    print()
+}     
