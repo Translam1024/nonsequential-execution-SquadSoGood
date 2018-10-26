@@ -1,8 +1,8 @@
 // Allen ISD Computer Science Assignment
 // Non-sequential Project | multiplicationTable
-// John Williams
+// TS1024
 // Computer Science I, Period 1
-// 2018.01.23
+// 2018.10.25
 
 
 /*
